@@ -18,7 +18,8 @@ const Box1 = () => {
                 animate={{
                     x: isAnimating ? 1100 : 0,
                     opacity: isAnimating ? 1 : 0.5,
-                    rotate: isAnimating ? 360 : 0
+                    rotate: isAnimating ? 360 : 0,
+                    
                 }}
                 // Transition configuration
                 transition={{
